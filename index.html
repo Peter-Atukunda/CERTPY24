@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://refactory.academy/wp-content/uploads/2023/02/Refactory_Logo.png" alt="Bootstrap" width="200" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blog List
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="se1.html">Software Engineering Week 1</a></li>
+              <li><a class="dropdown-item" href="leadership1.html">Leadership Week 1</a></li>
+              <li><a class="dropdown-item" href="se2.html">Software Engineering Week 2<a></li>
+              <li><a class="dropdown-item" href="leadership2.html">Leadership Week 2<a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+</div>
+
+
+<div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+        <div class="carousel-caption">
+          <h5>Faith in You</h5>
+          <p>"It's not a faith in technology.It's faith in people."
+            Steve Jobs - Co-founder of Apple.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://images.freeimages.com/images/large-previews/f65/typing-1242387.jpg')">
+        <div class="carousel-caption">
+          <h5>Experiential Learning</h5>
+          <p>The general idea behind hands-on learning is that it allows student the opportunity to construct their own knowledge through their experiences.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://images.freeimages.com/variants/7atyFRSYxuU7dMSm7XTFDYCA/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d')">
+        <div class="carousel-caption">
+          <h5>The Team</h5>
+          <p>Secure Your Seat Todat And Become Part Of The Team.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://images.freeimages.com/images/large-previews/f65/typing-1242387.jpg')">
+        <div class="carousel-caption">
+          <h5>Globa Harmony</h5>
+          <p>Technology That Brings The Globe To Harmony.</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://images.freeimages.com/images/large-previews/d5d/success-1543332.jpg')">
+        <div class="carousel-caption">
+          <h5>Guaranteed Success</h5>
+          <p>"If people knew how hard I worked to get my mastery, it wouldn't seem so wonderful after all."- Anonymous</p>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://images.freeimages.com/images/large-previews/9c0/ducks-in-a-row-1316756.jpg')">
+        <div class="carousel-caption">
+          <h5>Naturing Leaders</h5>
+          <p>"Leadership is the capacity to translate a vision into reality." —Warren Bennis.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+ 
+
+<section class="py-5 header">
+  <div class="container py-4">
+
+      <div class="row">
+          <div class="col-md-3">
+              <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <a class="nav-link mb-3 p-3 shadow active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home " role="tab" aria-controls="v-pills-home" aria-selected="true">
+                      <i class="fa fa-user-circle-o mr-2"></i>
+                      <span class="font-weight-bold small text-uppercase">Our Story</span></a>
+
+                  <a class="nav-link mb-3 p-3 shadow" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                      <i class="fa fa-calendar-minus-o mr-2"></i>
+                      <span class="font-weight-bold small text-uppercase">Our Vision</span></a>
+
+                  <a class="nav-link mb-3 p-3 shadow" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                      <i class="fa fa-star mr-2"></i>
+                      <span class="font-weight-bold small text-uppercase">Our Mision</span></a>
+
+                  </div>
+          </div>
+
+
+          <div class="col-md-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                      <h4 class="font-italic mb-4">Our Story</h4>
+                      <p class="font-italic text-muted mb-2">Refactory is a Company Limited by Guarantee that was formed by four partners; Laboremus Uganda Ltd, Fontes Foundation, Youth With A Mission UK, and Clarke International University. It has been supported by funding from the Norwegian Agency for International Development (NORAD) and other donors.
+
+                        It is focused on equipping learners with skills to enable them get into gainful employemnt.</p>
+                  </div>
+                  
+                  <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <h4 class="font-italic mb-4">Our Vision</h4>
+                      <p class="font-italic text-muted mb-2">A vibrant and growing African tech sector made up of individuals empowered with the right tech skills.</p>
+                  </div>
+                  
+                  <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                      <h4 class="font-italic mb-4">Our Mission</h4>
+                      <p class="font-italic text-muted mb-2">To be the industry’s preferred skilling partner for tech talent.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="container-fluid mb-5">
+  <div class="text-center mt-5">
+      <h1>Upcoming Programs</h1>
+  </div>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="box">
+              <div class="our-services settings">
+                  <div class="icon"> <img src="images/datascience-icon2.png"> </div>
+                  <h4>Data Science & Machine Learning</h4>
+                  <p>Primarily focusing on building algorithms that enable computers to learn from data and make predictions.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="box">
+              <div class="our-services speedup">
+                  <div class="icon"> <img src="images/ai.webp"> </div>
+                  <h4>AI & Machine Learning</h4>
+                  <p>Technology that enables computers and machines to simulate human intelligence and problem-solving capabilities.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="box">
+              <div class="our-services privacy">
+                  <div class="icon"> <img src="images/ux&ui-icon.png"> </div>
+                  <h4>UI & UX Design</h4>
+                  <p> User experience (UX) designer working in a team to create products that provide meaningful and enjoyable experiences for users </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="box">
+              <div class="our-services backups">
+                  <div class="icon"> <img src="images/python-icon.png"> </div>
+                  <h4>Software Engineering with Python</h4>
+                  <p>learning to write, document, and maintain production-level code in Python.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="box">
+              <div class="our-services ssl">
+                  <div class="icon"> <img src="images/js-icon.png"> </div>
+                  <h4>Software Engineering with Javascript</h4>
+                  <p>writing JavaScript code to produce new functions for computer software and applications</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="box">
+              <div class="our-services database">
+                  <div class="icon"> <img src="images/pdmgt-icon3.png"> </div>
+                  <h4>Product Management</h4>
+                  <p>Defining the vision, gather user feedback, and oversee the development process to ensure the final product meets user needs and market demands</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div>
+    <div class="container mb-lg-6 mb-2">
+        <div class="row">
+                  <div class="col-lg-4 col-sm-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit voluptatem quibusdam dicta non, tempore nemo fugiat eos obcaecati ullam consectetur sed expedita, perspiciatis tempora ipsa nulla unde, blanditiis harum illum!</div>
+                      <div class="col-lg-4 col-sm-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit voluptatem quibusdam dicta non, tempore nemo fugiat eos obcaecati ullam consectetur sed expedita, perspiciatis tempora ipsa nulla unde, blanditiis harum illum!</div>
+                          <div class="col-lg-4 col-sm-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit voluptatem quibusdam dicta non, tempore nemo fugiat eos obcaecati ullam consectetur sed expedita, perspiciatis tempora ipsa nulla unde, blanditiis harum illum!</div>
+              </div>
+            </div>
+        </div>
+
+</div>
+
+
+<section class="testimonial text-center">
+  <div class="container">
+
+      <div class="heading white-heading">
+          Testimonial
+      </div>
+      <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+       
+          <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                  <div class="testimonial4_slide">
+                      <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                      <h4>Client 1</h4>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="testimonial4_slide">
+                      <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                      <h4>Client 2</h4>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="testimonial4_slide">
+                      <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                      <h4>Client 3</h4>
+                  </div>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial4" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#testimonial4" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+      </div>
+  </div>
+</section>
+
+
+
+
+<div id="container">
+  <div id="part1">
+      <div id="companyinfo">
+          <a id="company-brand" href="#">
+            <img src="https://refactory.academy/wp-content/uploads/2023/02/Refactory_Logo.png" alt="Bootstrap" width="200" height="50">
+          </a>
+          <p id="detail">Refactory is a Tech skilling Academy. We are the industry’s blueprint for hiring software talent.</p>
+      </div>
+      <div id="explore">
+          <p id="txt1">Explore</p>
+          <a class="link" href="index.html">Home</a>
+          <a class="link" href="about-us.html">About Us</a>
+          <a class="link" href="blog.html">Blog</a>
+          <a class="link" href="contact.html">Contact Us</a>
+      </div>
+      <div id="visit">
+          <p id="txt2">Visit</p>
+          <p class="text">Refactory Academy, 2nd Floor, Clarke International University. Kawagga Close off Kalungi Road, Muyenga </p>
+          
+      </div>
+      <div id="legal">
+          <p id="txt3">Legal</p>
+          <a class="link1" href="#">Terms and Conditions</a>
+          <a class="link1" href="#">Private Policy</a>
+      </div>
+      <div id="subscribe">
+          <p id="txt4">Subscribe to US</p>
+          <form>
+              <input id="email" type="email" placeholder="Email">
+          </form>
+          <a class="waves-effect waves-light btn">Subscribe</a>
+          <p id="txt5">Connect With US</p>
+          <i class="fab fa-phone">+256 (0) 393254046</i>
+          <i class="fab fa-phone">+256 (0) 759243109</i>
+          <i class="fab fa-linkedin social fa-2x">partnerships@refactory.academy</i>
+          <i class="fab fa-twitter-square social fa-2x">study@refactory.academ</i>
+
+      </div>
+  </div>
+  <div id="part2">
+      <p id="txt6"><i class="material-icons tiny"> </i>© 2024 Refactory.</p> 
+  </div>
+</div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
